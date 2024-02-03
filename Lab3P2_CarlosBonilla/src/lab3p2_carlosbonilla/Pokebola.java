@@ -9,9 +9,9 @@ package lab3p2_carlosbonilla;
  * @author calot
  */
 public class Pokebola {
-    int probabilidad;
-    String color;
-    int serie;
+    protected int probabilidad;
+    protected String color;
+    protected int serie;
 
     public Pokebola(int probabilidad, String color, int serie) {
         this.probabilidad = probabilidad;

@@ -12,11 +12,11 @@ import java.util.Random;
 
 public class Pokemon {
 
-    int entrada;
-    String name;
-    boolean estado;
-    Pokebola atrapadoCon;
-    String naturaleza;
+    protected int entrada;
+    protected String name;
+    protected boolean estado;
+    protected Pokebola atrapadoCon;
+    protected String naturaleza;
 
     public Pokemon(int entrada, String name, String naturaleza) {
 
@@ -69,7 +69,7 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        return "\nNumero de la Pokedex: " + this.entrada + " | Nombre: " + this.name + " | naturaleza: " + this.naturaleza + " | Ha sido atrapado? " + this.estado;
+        return "";
     }
 
     public boolean Capturar(Pokebola pokeball) {

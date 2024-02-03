@@ -9,8 +9,8 @@ package lab3p2_carlosbonilla;
  * @author calot
  */
 public class WaterType extends Pokemon{
-    int aguaSpeed;
-    boolean puedeNadar;
+    protected int aguaSpeed;
+    protected boolean puedeNadar;
 
     public WaterType(int aguaSpeed, boolean puedeNadar, int entrada, String name, String naturaleza) {
         super(entrada, name, naturaleza);

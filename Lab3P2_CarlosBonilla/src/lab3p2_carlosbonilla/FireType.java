@@ -10,7 +10,7 @@ package lab3p2_carlosbonilla;
  */
 public class FireType extends Pokemon {
 
-    int fuegoPower;
+    protected int fuegoPower;
 
     public FireType(int fuegoPower, int entrada, String name, String naturaleza) {
         super(entrada, name, naturaleza);
